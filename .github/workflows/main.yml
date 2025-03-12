@@ -2,7 +2,7 @@ name: Check and Build
 
 env:
   kernel_repository: nishant6342/kernel_realme_RMX3031
-  kernel_branch: T
+  kernel_branch: T-Backup
   device: cupida
   clang_version: r416183b
   defconfig: |
