@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: PixelExperience-Devices/kernel_xiaomi_sdm845
-  kernel_branch: fourteen
-  device: dipper
-  clang_version: r487747c
+  kernel_repository: nishant6342/kernel_realme_RMX3031
+  kernel_branch: T
+  device: cupida
+  clang_version: r416183b
   defconfig: |
-    dipper_defconfig
+    cupida_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
